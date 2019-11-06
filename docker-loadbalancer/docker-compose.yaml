@@ -1,0 +1,18 @@
+version: '3'
+ 
+services:
+    apache_1:
+        container_name: apache_1
+        build: ./apache_1
+        ports: 
+          - 8080:80
+    apache_2:
+        container_name: apache_2
+        build: ./apache_2
+        ports:
+          - 9090:80
+    haproxy_img:
+        container_name: haproxy
+        build: ./haproxy
+        ports:
+          - 80:80
