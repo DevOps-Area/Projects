@@ -1,7 +1,8 @@
-#Creating a single HAProxy and two Apache containers with Docker compose
+## Creating a single HAProxy and two Apache containers with Docker compose
 
-In this porject  we will create  two identical Apache servers and one HAProxy container. 
-When we want to access our website, we will be calling HAProxy, not the Apache servers. HAProxy will divert traffic to Apache servers in "round-robin" fashion.
+- In this porject  we will create  two identical Apache servers and one HAProxy container. 
+
+- When we want to access our website, we will be calling HAProxy, not the Apache servers. HAProxy will divert traffic to Apache servers in "round-robin" fashion.
 
 1. HTTP Request goes to HAProxy container.
 
