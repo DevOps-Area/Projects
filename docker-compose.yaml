@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  reverseproxy:
+    build: ./reverse-proxy
+    ports:
+      - 80:80
+    depends_on:
+      - app1
+      - app2
+    container_name: reverse
+
+  app1:
+    build: ./app1
+    ports: 
+      - 8080:80
+    container_name: app1
+    deploy:
+      resources:
+        limits:
+          cpus: 1
+          memory: 512M
+        reservations:
+          cpus: 0.5
+          memory: 256M
+
+  app2:
+    build: ./app2
+    ports:
+      - 9090:80
+    container_name: app2
+    deploy:
+      resources:
+        limits:
+          cpus: 1
+          memory: 512M
+        reservations:
+          cpus: 0.5
+          memory: 256M
