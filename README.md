@@ -1,10 +1,27 @@
-- 👋 Hi, It's @DevOps-Area
-- 👀 We are interested in empowering DevOps with Projects, Training, mentorship
-- 🌱 We are currently in Beta (not officially launched )
-- 💞️ We are looking to collaborate on these DevOps Projects that will support DevOps to enhance their skills
--  📫 How to reach us info@devopsarea.com
+## Project 1 : Balancing the load using HAProxy and transferring traffic to two microservices
 
-<!---
-DevOps-Area/DevOps-Area is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- In this project, we will learn how to balance the traffic load to more than microservices based on a simple Round-Robin.
+
+Example:
+
+Hit 1  → Forward to the 1st microservice 
+Hit 2 →  Forward to the 2nd microservice 
+
+## You can see this Project in the Below Video. 
+
+[![IMAGE ALT TEXT](http://https://img.youtube.com/vi/tPjTk6381G8/0.jpg)](http://www.youtube.com/watch?v=tPjTk6381G8 " Project:1  DevOps Project using HA Proxy Load-Balancer")
+
+
+## Project 2: Reverse Proxy using (Two Dockerized Microservices and one Nginx container )
+
+ - In this project, we will learn how to reverse proxy to two microservices 
+
+ - Example: 
+
+  /app1  → forward to the 1st microservice
+  /app2 → forward to the 2nd microservice
+ 
+## You can see this Project in the Below Video. 
+
+[![IMAGE ALT TEXT](http://https://img.youtube.com/vi/1gSKz7-ZaL8/0.jpg)](http://www.youtube.com/watch?v=1gSKz7-ZaL8 " Project:1 Reverse Proxy using (Two Dockerized Microservices and one Nginx container )")
+
