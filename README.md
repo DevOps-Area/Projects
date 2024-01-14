@@ -24,7 +24,9 @@ Example:
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/1gSKz7-ZaL8/0.jpg)](http://www.youtube.com/watch?v=1gSKz7-ZaL8 "Project:2 Reverse Proxy using Two Dockerized Microservices and one Nginx container ")
 
 
-### Project 3: Separation between CI and CD is significant | Independent Changes (change the k8s replica number doesn't need a change in the code ) 
+### Project 3: Separation between CI and CD is significant 
+
+-> Independent Changes (change the k8s replica number doesn't need a change in the code ) 
  
 * Same CI flow using Jenkins and GitHub Actions. 
 * CI Repository: https://github.com/zeineldin/Java-tes...
