@@ -1,4 +1,4 @@
-## Project 1 : Balancing the load using HAProxy and transferring traffic to two microservices
+### Project 1 : Balancing the load using HAProxy and transferring traffic to two microservices
 
 - In this project, we will learn how to balance the traffic load to more than microservices based on a simple Round-Robin.
 
