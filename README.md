@@ -24,5 +24,7 @@ Hit 2 →  Forward to the 2nd microservice
  
 ## You can see this Project in the Below Video. 
 
-[![IMAGE ALT TEXT](http:img.youtube.com/vi/1gSKz7-ZaL8/0.jpg)](http://www.youtube.com/watch?v=1gSKz7-ZaL8 " Project:2 Reverse Proxy using (Two Dockerized Microservices and one Nginx container )")
+[![IMAGE ALT TEXT](http:img.youtube.com/vi/1gSKz7-ZaL8/0.jpg)](http://www.youtube.com/watch?v=1gSKz7-ZaL8 " Project:2 Reverse Proxy using Two Dockerized Microservices and one Nginx container")
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/QdABGNrDD1o/0.jpg)](http://www.youtube.com/watch?v=YQdABGNrDD1o "2 Projects using Docker | Jenkins | Artifactory | Tomcat | DIND ")
 
