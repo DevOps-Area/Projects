@@ -11,6 +11,7 @@ Example:
 
 ### You can see this Project in the Below Video
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/tPjTk6381G8/0.jpg)](http://www.youtube.com/watch?v=tPjTk6381G8 " Project:1  DevOps Project using HA Proxy Load-Balancer")
+---
 ### Project 2: Reverse Proxy using (Two Dockerized Microservices and one Nginx container )
 
  - In this project, we will learn how to reverse proxy to two microservices 
