@@ -34,6 +34,6 @@ Example:
 
   ### You can see this Project in the Below Video
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/0VHriqMjdlk/0.jpg)](http://www.youtube.com/watch?v=0VHriqMjdlk "Separation between CI and CD is significant| Independent Changes (change the k8s replica number doesn't need a change in the code ))
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/0VHriqMjdlk/0.jpg)](http://www.youtube.com/watch?v=0VHriqMjdlk "Project:3 Separation between CI and CD is significant using Github-Jenkins-Docker-ArgoCD-K8s ")
 
 
