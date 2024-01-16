@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: devopsarea-app
+  # You'll usually want to add your resources to the argocd namespace.
+  namespace: argocd
+spec:
+  # The project the application belongs to.
+  project: default
+
+  # Source of the application manifests
+  source:
+    repoURL: https://github.com/zeineldin/Java-testapp-CD.git
+    targetRevision: HEAD
+    path: app/
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: prod
+
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
